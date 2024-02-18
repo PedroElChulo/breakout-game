@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Breakout!</title>
+    </head>
+    <body>
+        <h1>Breakout!</h1>
+        <button id="btn-reglas" class="btn btn-reglas">Mostrar Reglas</button>
+        <div id="reglas" class="reglas">
+            <h2>Como jugar:</h2>
+            <p>
+                Usa las flechas del cursor para mover la paleta con el objeto de hacer rebotar la bola hacia arriba y
+                romper los bloques.
+            </p>
+            <p>Si fallas en la recepción, se restablecerán todos los bloques y la puntuación volverá a cero.</p>
+
+            <p>Los bloques tienen al comienzo una resistencia de 2, es decir que la bola tendra que colisionar dos veces con 
+                el bloque para que cuente el punto y para que desaparezca el bloque.
+            </p>
+            <button id="btn-cerrar" class="btn">Cerrar</button>
+        </div>
+
+        <canvas id="canvas" width="800" height="600"></canvas>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

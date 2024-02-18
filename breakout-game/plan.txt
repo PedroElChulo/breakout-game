@@ -1,0 +1,12 @@
+1. Contexto Canvas
+2. Crear y dibujar la bola 
+3. Crear y dibujar la paleta
+4. Crear los ladrillos
+5. Dibujar la puntuación
+6. Añadir update() - Animar - requestAnimationFrame(cb) 
+7. Mover paleta 
+8. Manejadores de eventos de teclado para mover paleta 
+9. Mover bola
+10. Añadir límites y paredes 
+11. Actualizar la puntuación
+12. Fallo de recepción - Restablecer ladrillos y puntuación a cero
